@@ -161,3 +161,19 @@ cython_debug/
 
 .ruff_cache/
 *.zip
+
+# 忽略 Python 环境
+venv/
+.env/
+__pycache__/
+
+# 忽略大型数据文件
+*.csv
+*.gz
+*.zip
+data/
+
+# 忽略模型权重
+*.pt
+*.pth
+models/
